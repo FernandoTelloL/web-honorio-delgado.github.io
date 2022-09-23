@@ -1,0 +1,10 @@
+.navbar-logo {
+  height: 100px;
+  width: auto;
+}
+
+.navbar-marca {
+  font-family: 'Jost';
+  font-size: 1.8rem;
+  font-weight: 700;
+}
