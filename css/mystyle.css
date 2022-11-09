@@ -5,6 +5,37 @@
 
 .navbar-marca {
   font-family: 'Jost';
-  font-size: 1.8rem;
+  /* font-size: 1.65rem; */
+  font-size: 1.5rem;
   font-weight: 700;
+}
+
+.logotipo-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 343px) {
+  .logotipo-header {
+    align-items: center;
+  }
+}
+
+@media (min-width: 630px) {
+  .logotipo-header span {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .logotipo-header span {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logotipo-header span {
+    font-size: 1.9rem;
+  }
 }
