@@ -16,6 +16,14 @@
   justify-content: center;
 }
 
+.img-contact {
+  max-width: 100%;
+}
+
+.mail-contact {
+  line-break: anywhere;
+}
+
 @media (min-width: 343px) {
   .logotipo-header {
     align-items: center;
