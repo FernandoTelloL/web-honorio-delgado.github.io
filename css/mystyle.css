@@ -23,6 +23,14 @@
 .mail-contact {
   line-break: anywhere;
 }
+.hero {
+  /* padding-bottom: 6rem;
+  padding-top: 6rem; */
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 @media (min-width: 343px) {
   .logotipo-header {
